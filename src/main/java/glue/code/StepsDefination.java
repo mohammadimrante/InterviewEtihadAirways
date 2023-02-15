@@ -193,29 +193,7 @@ public class StepsDefination {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
-
-
-
-
-
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -248,27 +226,6 @@ public class StepsDefination {
 			e.printStackTrace();
 		}
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 	@Then("user closes browser")
