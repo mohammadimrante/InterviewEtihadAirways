@@ -40,15 +40,17 @@ public class BrowserManager {
 		System.err.println("launching browser : "+broswerName);
 		//System.setProperty(ReadTestData.propertyReader(broswerName+"_key"), ReadTestData.propertyReader(broswerName+"_value"));
 		
-		System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
 		if (broswerName.equalsIgnoreCase("chrome")) {
 			//WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
 			driver=new ChromeDriver();
 		}
 		else if(broswerName.equalsIgnoreCase("firefox")) {
+			System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
 			driver=new FirefoxDriver();
 		}
 		else if(broswerName.equalsIgnoreCase("edge")) {
+			System.setProperty("webdriver.edge.driver","drivers/msedgedriver.exe");
 			driver=new EdgeDriver();
 		}
 		else {
