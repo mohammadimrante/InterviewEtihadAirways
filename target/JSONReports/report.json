@@ -1,0 +1,126 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-14T19:59:44.941Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1811900100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserManager.beforeMethod()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Etihad_Multi_Booking",
+        "description": "",
+        "id": "etihad-booking-fearure;etihad-multi-booking",
+        "after": [
+          {
+            "result": {
+              "duration": 135898100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserManager.afterMethod(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "all cookies cleared",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user enters the url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user waits for the element \"CookiePopupCloseButton\" availability",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user click on element \"CookiePopupCloseButton\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user hard waits for 5 seconds",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "user waits for the element \"MultiCityOption\" availability",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user click on element \"MultiCityOption\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EtihadBooking"
+          },
+          {
+            "name": "@EtihadMultiCityBooking"
+          }
+        ]
+      }
+    ],
+    "name": "Etihad_Booking_Fearure",
+    "description": "",
+    "id": "etihad-booking-fearure",
+    "keyword": "Feature",
+    "uri": "file:features/EtihadAirwaysFlightBooking.feature",
+    "tags": [
+      {
+        "name": "@EtihadBooking",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

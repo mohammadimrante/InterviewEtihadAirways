@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="1.995576">
+    <testcase classname="Etihad_Booking_Fearure" name="Etihad_Multi_Booking" time="1.995576">
+        <skipped><![CDATA[Given all cookies cleared...................................................undefined
+Given user enters the url...................................................undefined
+And user waits for the element "CookiePopupCloseButton" availability........undefined
+When user click on element "CookiePopupCloseButton".........................undefined
+And user hard waits for 5 seconds...........................................undefined
+And user waits for the element "MultiCityOption" availability...............undefined
+Then user click on element "MultiCityOption"................................undefined
+]]></skipped>
+    </testcase>
+</testsuite>
